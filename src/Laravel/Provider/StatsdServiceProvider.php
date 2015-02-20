@@ -20,7 +20,8 @@ class StatsdServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->package('league/statsd', 'statsd');
+        // Removed in Laravel 5.
+        //$this->package('league/statsd', 'statsd');
     }
 
     /**

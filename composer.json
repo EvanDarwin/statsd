@@ -1,29 +1,33 @@
 {
-    "name": "league/statsd",
-    "description": "A simple library for working with StatsD in PHP.",
-    "keywords": [
-        "library",
-        "statsd",
-        "graphite"
-    ],
-    "homepage": "https://github.com/thephpleague/statsd",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Marc Qualie",
-            "email": "marc@marcqualie.com",
-            "homepage": "http://marcqualie.com",
-            "role": "Developer"
-        }
-    ],
-    "require-dev": {
-        "silex/silex": "~1.0",
-        "phpunit/phpunit": "~4.0"
+  "name": "evandarwin/statsd",
+  "description": "A simple library for working with StatsD in PHP.",
+  "keywords": [
+    "library",
+    "statsd",
+    "graphite"
+  ],
+  "homepage": "https://github.com/thephpleague/statsd",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marc Qualie",
+      "email": "marc@marcqualie.com",
+      "homepage": "http://marcqualie.com",
+      "role": "Developer"
     },
-    "autoload": {
-        "psr-4": {
-            "League\\StatsD\\": "src",
-            "League\\StatsD\\Test\\": "tests"
-        }
+    {
+      "name": "Evan Darwin",
+      "email": "evan@devil.io"
     }
+  ],
+  "require-dev": {
+    "silex/silex": "~1.0",
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "League\\StatsD\\": "src",
+      "League\\StatsD\\Test\\": "tests"
+    }
+  }
 }
